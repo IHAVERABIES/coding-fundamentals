@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>    
+  <head>        
+    <meta charset="UTF-8" />        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />          
+  </head>    
+  
+  <body>        
+    <header>
+        <h1>My Portfolio</h1>
+        <h2>Navigational Links</h2>
+    <nav>
+      <ul>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#workexperiance">Work Experience</a></li>
+        <li><a href="#Skills and Education">Skills and Education</a></li>
+        <li><a href="#Contact Me">Footer</a></li>
+        <li><a href="#footer">More Information</a></li>
+      </ul>
+    </nav>
+    </header>
+      
+      <main>
+        <section>
+            <h2 id="aboutme">About Me</h2>
+      
+            <div>
+                <p>I am currently a student studying A-level science at Institute Sinaran.I am learning how to code at sigma school</p>
+            </div>
+        </section>
+      
+        <section>
+            <h2 id="workexperiance">Work Experience</h2>
+      
+            <div>
+                <h3>Facillitator at e2 Young Engineers</h3>
+                <ul>
+                    <li>Teach children STEM concepts through building lego projects.</li>
+                    <li>Basic administration tasks.</li>
+                </ul>
+            </div>
+        </section>
+      
+        <section>
+            <h2 id="Skills and Education">Skills and Education</h2>
+
+            <style>
+                table{
+                    width:40%;
+                }
+
+                td{
+                    border: 2px solid black;
+                    text-align: left;
+                    padding:8px;
+                }
+            </style>
+      
+            <table>
+                <tr>
+                    <td><b>A-level subjects</b></td>
+                    <td>Chemistry, Physics and Mathematics</td>
+                </tr>
+                    <td><b>Languages</b></td>
+                    <td>HTML,CSS, JavaScript</td>
+                </tr>
+            </table>
+        </section>
+      
+        <section>
+            <h2 id="contactme">Contact Me</h2>
+      
+            <form class="contact-form">
+                <div>
+                    <label for="name">
+                        Name:
+                        <input id="name" name="name" type="text" placeholder="your name" />
+                    </label>
+                </div>
+      
+                <div>
+                    <label for="email">
+                        Email:
+                        <input id="email" name="email" type="email" placeholder="your email" />
+                    </label>
+                </div>
+      
+                <div>
+                    <label for="message">
+                        Message:
+                        <div>
+                            <textarea name="message" id="message" cols="40" rows="7" placeholder="type here"></textarea>
+                        </div>
+                    </label>
+                </div>
+      
+                <button>Submit</button>
+            </form>
+        <footer id="footer">
+            <h2>More information </h2>
+            <p>fakeemail@gmail.com</p>
+            <p>Contact me at +1 234 567 8910 </p>
+            <p>Copyright &#169;</p>
+        </footer>
+        </section>
+      </main>
+  </body>
+</html>
