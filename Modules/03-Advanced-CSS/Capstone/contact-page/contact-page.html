@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/7f2b36dee3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" >
+</head>
+
+<body>
+    <div class="navi">
+        <ul>
+            <li><i class="fa-solid fa-cat"></i></li>
+            <li><a href="#">Changelog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">News</a></li>
+        </ul>
+        <button>Login</button>
+    </div>
+    <header>
+        <h1>Get in touch</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quia numquam veniam repellendus quas similique. Ab nisi, molestias explicabo magnam dignissimos et id dolores ea mollitia maiores deserunt quasi eius!</p>
+    </header>
+    <div class="contact-card">
+        <div class="info">
+            <h2>Contact information</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolores, ipsum asperiores praesentium hic, delectus accusantium illo dolor quod voluptate perferendis vitae molestiae obcaecati. Temporibus ratione culpa eum eveniet nulla.</p>
+            <li><i class="fa-solid fa-phone"></i>+6010*******</li>
+            <li><i class="fa-solid fa-envelope"></i>ruht.ng0826@gmail.com</li>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <form >
+            <div class="name">
+                <li>
+                    <label for="first name">First Name:</label>
+                    <input type="text" id="name" name="first_name" required />
+                </li>
+                <li>
+                    <label for="last name">Last Name:</label>
+                    <input type="text" id="name" name="last_name" required/>
+                </li>
+            </div>
+            <div class="contact">
+                <li>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_email" required/>
+                </li>
+                <li>
+                    <label for="phone">Phone: <label for="phone">optional</label></label>
+                    <input type="text" id="phone" name="user_phone" />
+                </li>
+            </div>
+             <div class="subject">
+                <li>
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="user_subject" required/>
+                </li>
+            </div>
+             <div class="msg">
+                <li>
+                    <label for="msg">Message:<label for="msg">Max. 500 characters</label></label>
+                    <textarea id="msg" name="user_message" maxlength="500" rows="10" required></textarea>
+                </li>
+            </div>
+            <button type="submit" value="Submit">submit</button>
+        </form>
+    </div>
+</body>
