@@ -1,0 +1,28 @@
+.menu{
+    position: relative;
+    width: 15%;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: grey;
+}
+
+.menu:hover .submenu {    
+    display:block;
+}
+
+.submenu-item{
+    display: block;
+    color: black;
+    padding: 5px;
+}
+  
+.submenu-item:hover {
+    color: white;
+    background-color: skyblue;
+}
+
+
