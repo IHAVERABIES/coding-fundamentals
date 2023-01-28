@@ -1,0 +1,21 @@
+.breadcrumb {  
+  padding: 5px;
+  background-color: lightgray;
+}
+  
+.breadcrumb li {
+  display: inline;
+  list-style: none;
+}
+  
+.breadcrumb li a {
+  color: darkblue;
+}
+  
+.slash::before{
+  content: "/";
+  padding: 8px;
+  color: black;
+}
+
+  
